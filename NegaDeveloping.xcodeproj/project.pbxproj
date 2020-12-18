@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D03FB6FF258CDB24001E28DB /* NegaDeveloping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03FB6F5258CDB24001E28DB /* NegaDeveloping.framework */; };
-		D03FB704258CDB24001E28DB /* NegaDevelopingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03FB703258CDB24001E28DB /* NegaDevelopingTests.swift */; };
-		D03FB706258CDB24001E28DB /* NegaDeveloping.h in Headers */ = {isa = PBXBuildFile; fileRef = D03FB6F8258CDB24001E28DB /* NegaDeveloping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D03FB715258CDB8B001E28DB /* NegaDeveloping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03FB714258CDB8B001E28DB /* NegaDeveloping.swift */; };
+		D03FB719258CDC0D001E28DB /* ToneCurveFilterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03FB718258CDC0D001E28DB /* ToneCurveFilterUseCase.swift */; };
+		D03FB71E258CE8A1001E28DB /* ToneCurvePointsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03FB71D258CE8A1001E28DB /* ToneCurvePointsModel.swift */; };
+		D03FB724258CE987001E28DB /* RgbChannelCompositing.metal in Sources */ = {isa = PBXBuildFile; fileRef = D03FB723258CE987001E28DB /* RgbChannelCompositing.metal */; };
+		D03FB738258D008C001E28DB /* NegaDevelopingSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03FB737258D008C001E28DB /* NegaDevelopingSampleApp.swift */; };
+		D03FB73A258D008C001E28DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03FB739258D008C001E28DB /* ContentView.swift */; };
+		D03FB73C258D0095001E28DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03FB73B258D0095001E28DB /* Assets.xcassets */; };
+		D03FB73F258D0095001E28DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03FB73E258D0095001E28DB /* Preview Assets.xcassets */; };
+		D03FB747258D00FC001E28DB /* NegaDeveloping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03FB6F5258CDB24001E28DB /* NegaDeveloping.framework */; };
+		D03FB748258D00FC001E28DB /* NegaDeveloping.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D03FB6F5258CDB24001E28DB /* NegaDeveloping.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D03FB700258CDB24001E28DB /* PBXContainerItemProxy */ = {
+		D03FB749258D00FC001E28DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D03FB6EC258CDB24001E28DB /* Project object */;
 			proxyType = 1;
@@ -22,13 +29,33 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D03FB74B258D00FC001E28DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D03FB748258D00FC001E28DB /* NegaDeveloping.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D03FB6F5258CDB24001E28DB /* NegaDeveloping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NegaDeveloping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D03FB6F8258CDB24001E28DB /* NegaDeveloping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NegaDeveloping.h; sourceTree = "<group>"; };
 		D03FB6F9258CDB24001E28DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D03FB6FE258CDB24001E28DB /* NegaDevelopingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NegaDevelopingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D03FB703258CDB24001E28DB /* NegaDevelopingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegaDevelopingTests.swift; sourceTree = "<group>"; };
-		D03FB705258CDB24001E28DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03FB714258CDB8B001E28DB /* NegaDeveloping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegaDeveloping.swift; sourceTree = "<group>"; };
+		D03FB718258CDC0D001E28DB /* ToneCurveFilterUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneCurveFilterUseCase.swift; sourceTree = "<group>"; };
+		D03FB71D258CE8A1001E28DB /* ToneCurvePointsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneCurvePointsModel.swift; sourceTree = "<group>"; };
+		D03FB723258CE987001E28DB /* RgbChannelCompositing.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = RgbChannelCompositing.metal; sourceTree = "<group>"; };
+		D03FB735258D008C001E28DB /* NegaDevelopingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NegaDevelopingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03FB737258D008C001E28DB /* NegaDevelopingSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegaDevelopingSampleApp.swift; sourceTree = "<group>"; };
+		D03FB739258D008C001E28DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D03FB73B258D0095001E28DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03FB73E258D0095001E28DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D03FB740258D0095001E28DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +66,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D03FB6FB258CDB24001E28DB /* Frameworks */ = {
+		D03FB732258D008C001E28DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03FB6FF258CDB24001E28DB /* NegaDeveloping.framework in Frameworks */,
+				D03FB747258D00FC001E28DB /* NegaDeveloping.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,8 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				D03FB6F7258CDB24001E28DB /* NegaDeveloping */,
-				D03FB702258CDB24001E28DB /* NegaDevelopingTests */,
+				D03FB736258D008C001E28DB /* NegaDevelopingSample */,
 				D03FB6F6258CDB24001E28DB /* Products */,
+				D03FB746258D00FC001E28DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				D03FB6F5258CDB24001E28DB /* NegaDeveloping.framework */,
-				D03FB6FE258CDB24001E28DB /* NegaDevelopingTests.xctest */,
+				D03FB735258D008C001E28DB /* NegaDevelopingSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,19 +99,56 @@
 		D03FB6F7258CDB24001E28DB /* NegaDeveloping */ = {
 			isa = PBXGroup;
 			children = (
-				D03FB6F8258CDB24001E28DB /* NegaDeveloping.h */,
+				D03FB713258CDB72001E28DB /* UseCase */,
 				D03FB6F9258CDB24001E28DB /* Info.plist */,
+				D03FB714258CDB8B001E28DB /* NegaDeveloping.swift */,
+				D03FB723258CE987001E28DB /* RgbChannelCompositing.metal */,
 			);
 			path = NegaDeveloping;
 			sourceTree = "<group>";
 		};
-		D03FB702258CDB24001E28DB /* NegaDevelopingTests */ = {
+		D03FB713258CDB72001E28DB /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
-				D03FB703258CDB24001E28DB /* NegaDevelopingTests.swift */,
-				D03FB705258CDB24001E28DB /* Info.plist */,
+				D03FB71C258CE867001E28DB /* Model */,
+				D03FB718258CDC0D001E28DB /* ToneCurveFilterUseCase.swift */,
 			);
-			path = NegaDevelopingTests;
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		D03FB71C258CE867001E28DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D03FB71D258CE8A1001E28DB /* ToneCurvePointsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D03FB736258D008C001E28DB /* NegaDevelopingSample */ = {
+			isa = PBXGroup;
+			children = (
+				D03FB737258D008C001E28DB /* NegaDevelopingSampleApp.swift */,
+				D03FB739258D008C001E28DB /* ContentView.swift */,
+				D03FB73B258D0095001E28DB /* Assets.xcassets */,
+				D03FB740258D0095001E28DB /* Info.plist */,
+				D03FB73D258D0095001E28DB /* Preview Content */,
+			);
+			path = NegaDevelopingSample;
+			sourceTree = "<group>";
+		};
+		D03FB73D258D0095001E28DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D03FB73E258D0095001E28DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D03FB746258D00FC001E28DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +158,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03FB706258CDB24001E28DB /* NegaDeveloping.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,23 +182,24 @@
 			productReference = D03FB6F5258CDB24001E28DB /* NegaDeveloping.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D03FB6FD258CDB24001E28DB /* NegaDevelopingTests */ = {
+		D03FB734258D008C001E28DB /* NegaDevelopingSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D03FB70C258CDB24001E28DB /* Build configuration list for PBXNativeTarget "NegaDevelopingTests" */;
+			buildConfigurationList = D03FB741258D0095001E28DB /* Build configuration list for PBXNativeTarget "NegaDevelopingSample" */;
 			buildPhases = (
-				D03FB6FA258CDB24001E28DB /* Sources */,
-				D03FB6FB258CDB24001E28DB /* Frameworks */,
-				D03FB6FC258CDB24001E28DB /* Resources */,
+				D03FB731258D008C001E28DB /* Sources */,
+				D03FB732258D008C001E28DB /* Frameworks */,
+				D03FB733258D008C001E28DB /* Resources */,
+				D03FB74B258D00FC001E28DB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D03FB701258CDB24001E28DB /* PBXTargetDependency */,
+				D03FB74A258D00FC001E28DB /* PBXTargetDependency */,
 			);
-			name = NegaDevelopingTests;
-			productName = NegaDevelopingTests;
-			productReference = D03FB6FE258CDB24001E28DB /* NegaDevelopingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = NegaDevelopingSample;
+			productName = NegaDevelopingSample;
+			productReference = D03FB735258D008C001E28DB /* NegaDevelopingSample.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -147,8 +212,9 @@
 				TargetAttributes = {
 					D03FB6F4258CDB24001E28DB = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
-					D03FB6FD258CDB24001E28DB = {
+					D03FB734258D008C001E28DB = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -167,7 +233,7 @@
 			projectRoot = "";
 			targets = (
 				D03FB6F4258CDB24001E28DB /* NegaDeveloping */,
-				D03FB6FD258CDB24001E28DB /* NegaDevelopingTests */,
+				D03FB734258D008C001E28DB /* NegaDevelopingSample */,
 			);
 		};
 /* End PBXProject section */
@@ -180,10 +246,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D03FB6FC258CDB24001E28DB /* Resources */ = {
+		D03FB733258D008C001E28DB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03FB73F258D0095001E28DB /* Preview Assets.xcassets in Resources */,
+				D03FB73C258D0095001E28DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,24 +262,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03FB724258CE987001E28DB /* RgbChannelCompositing.metal in Sources */,
+				D03FB71E258CE8A1001E28DB /* ToneCurvePointsModel.swift in Sources */,
+				D03FB715258CDB8B001E28DB /* NegaDeveloping.swift in Sources */,
+				D03FB719258CDC0D001E28DB /* ToneCurveFilterUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D03FB6FA258CDB24001E28DB /* Sources */ = {
+		D03FB731258D008C001E28DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03FB704258CDB24001E28DB /* NegaDevelopingTests.swift in Sources */,
+				D03FB73A258D008C001E28DB /* ContentView.swift in Sources */,
+				D03FB738258D008C001E28DB /* NegaDevelopingSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D03FB701258CDB24001E28DB /* PBXTargetDependency */ = {
+		D03FB74A258D00FC001E28DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D03FB6F4258CDB24001E28DB /* NegaDeveloping */;
-			targetProxy = D03FB700258CDB24001E28DB /* PBXContainerItemProxy */;
+			targetProxy = D03FB749258D00FC001E28DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -341,6 +414,7 @@
 		D03FB70A258CDB24001E28DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -348,14 +422,19 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NegaDeveloping/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MTLLINKER_FLAGS = "-fcikernel";
+				MTL_COMPILER_FLAGS = "-fcikernel";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = net.yamatte.NegaDeveloping;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +443,7 @@
 		D03FB70B258CDB24001E28DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -371,11 +451,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = NegaDeveloping/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MTLLINKER_FLAGS = "-fcikernel";
+				MTL_COMPILER_FLAGS = "-fcikernel";
 				PRODUCT_BUNDLE_IDENTIFIER = net.yamatte.NegaDeveloping;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -384,34 +467,42 @@
 			};
 			name = Release;
 		};
-		D03FB70D258CDB24001E28DB /* Debug */ = {
+		D03FB742258D0095001E28DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NegaDevelopingTests/Info.plist;
+				DEVELOPMENT_ASSET_PATHS = "\"NegaDevelopingSample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NegaDevelopingSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.yamatte.NegaDevelopingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.yamatte.NegaDevelopingSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D03FB70E258CDB24001E28DB /* Release */ = {
+		D03FB743258D0095001E28DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NegaDevelopingTests/Info.plist;
+				DEVELOPMENT_ASSET_PATHS = "\"NegaDevelopingSample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NegaDevelopingSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.yamatte.NegaDevelopingTests;
+				PRODUCT_BUNDLE_IDENTIFIER = net.yamatte.NegaDevelopingSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,11 +530,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D03FB70C258CDB24001E28DB /* Build configuration list for PBXNativeTarget "NegaDevelopingTests" */ = {
+		D03FB741258D0095001E28DB /* Build configuration list for PBXNativeTarget "NegaDevelopingSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D03FB70D258CDB24001E28DB /* Debug */,
-				D03FB70E258CDB24001E28DB /* Release */,
+				D03FB742258D0095001E28DB /* Debug */,
+				D03FB743258D0095001E28DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
